@@ -3,6 +3,7 @@ import Image from "next/image";
 import Header from"../components/Header";
 import{BiSearchAlt} from "react-icons/Bi";
 import{FaMicrophone} from "react-icons/Fa"
+import Footer from "../components/Footer";
 export default function Home() {
   return (
     <>
@@ -34,6 +35,7 @@ export default function Home() {
          </div>
          </form>
       {/*Footer*/}
+      <Footer/>
       </>
   );
 }
