@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Header from"../components/Header";
 import{BiSearchAlt} from "react-icons/Bi";
-import{FaMicrophone} from "react-icons/Fa"
+import{FaMicrophone} from "react-icons/Fa";
 import Footer from "../components/Footer";
 import{useRouter} from "next/router";
 import{useRef} from "react";
