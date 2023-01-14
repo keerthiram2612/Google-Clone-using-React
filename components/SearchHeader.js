@@ -6,6 +6,8 @@ import{FaMicrophone} from "react-icons/Fa";
 import{BiSearchAlt} from "react-icons/Bi";
 import{RxCross1} from "react-icons/Rx";
 import User from "./User";
+import SearchHeaderOptions from "./SearchHeaderOptions";
+
 
 export default function SearchHeader(){
     const router =useRouter()
@@ -14,7 +16,7 @@ export default function SearchHeader(){
         event.preventDefault();
         const term= searchInputRef.current.value;
         if(!term.trim())return;
-        router.push(`/search?term=${term.trim()}`);
+        router.push(`/search?term=${term.trim()}&SearchType=`);
     }
         return (
             <header className="sticky top-0 bg-white">
@@ -37,6 +39,7 @@ export default function SearchHeader(){
                 </form>
                 <User className="ml-auto whitespace-nowrap"/>
               </div>
+              <SearchHeaderOptions/>
             </header>
         );
     }
