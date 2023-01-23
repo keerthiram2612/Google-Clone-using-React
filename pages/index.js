@@ -31,7 +31,6 @@ export default function Home() {
 
       <form className="flex flex-col items-center mt-40">
         <Image width="300"
-        object-Fit="cover"
          height="100" 
          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"/>
          <div className="flex w-full mt-5 mx-auto mx-w-[90%] border border-gray-200 hover:shadow-lg focus-within:shadow-lg px-5 py-3 rounded-full items-center sm:max-w-x lg:max-w-2xl">
