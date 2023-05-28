@@ -1,11 +1,14 @@
-import Header from '@/components/Header'
+import Header from '../../components/Header';
 import React from 'react'
 
 
-export default function Login({providers}){
+export default function SignUp(){
 return(
-    <>
-    <div>SignUp</div>
-     </>
+    
+    <div>SignUp
+        <Header/>
+    </div>
+    
+    
 )
 }
