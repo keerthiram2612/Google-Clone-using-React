@@ -1,0 +1,168 @@
+body{
+    margin:0;
+    display: flex;
+    
+    
+}
+.container{
+    margin: 10px;
+    padding: 30px 50px;
+    background-color: green;
+    width: 400px;
+    height: 90px;
+    transform: translateX(80%);
+    border-left: 3px solid;
+    border-right: 3px solid;
+    
+}
+header{
+     justify-content: center;
+     display: flex;
+     text-align: center;
+     box-sizing: border-box;
+     margin-left: -50px;
+}
+h1{
+    padding: 0 10px;
+    transform: translateY(-50%);
+    color: white;
+   
+}
+.fa-solid{
+    padding: 20px 50px;
+    margin-right: -50px;
+    
+
+}
+.top-header{
+    transform: translateX(30%);
+    display: flex;
+    padding: 0 40px;
+    transform: translateY(-80%);
+
+}
+p{
+    padding: 0px 20px;
+    color: white;
+    font-size: 20px;
+}
+.fa-user-group{
+    width: 20px;
+    transform: translateX(-50px);
+}
+
+.active.list{
+    visibility: hidden;
+    opacity: 0;
+    
+}
+.content  {
+    transform: translateX(-150%);
+    transform: translateY(50%);
+}
+.content p{
+    color: black;
+    margin-top: -250%;
+    margin-left: -20%;
+    transform: translateY(300%);
+}
+.content img{
+    width: 50px;
+    margin-bottom: 220%;
+    transform: translateX(-90%);
+    transform: translateY(140%);
+    margin-left: -70%;
+}
+
+
+@media (max-width:650px){
+    header{
+        margin:0;
+        position: fixed;
+        margin-left: -20%;
+        transform: translateX(20%);
+        
+    }
+    h1{
+    
+        color: white;
+        font-size: 25px;
+        margin-top: 0px;
+    
+    
+}
+.fa-camera{
+   margin-right: -40px;
+}
+.fa-magnifying-glass{
+    margin-right: -20px;
+}
+
+.top-header{
+    position: fixed;
+    transform: translateX(-50%);
+    transform: translateY(70%);
+    display: flex;
+
+    
+}
+p{
+    transform: translateX(-50%);
+    padding: 0px 15px;
+    font-size: 20px;
+}
+
+
+.container{
+    position: fixed;
+align-items: center;
+text-align: center;
+justify-content: center;
+transform: translateX(0%);
+margin-right: 10px;
+margin-left: 10px;
+background-color: green;
+width: 400px;
+height: 90px;       
+padding: 20px 10px;
+ }
+
+ .fa-user-group{
+    width: 20px;
+    transform: translateX(-70px);
+}
+  .list li{
+    display: block;
+    list-style-type: none;
+    transform: translateX(150%);
+    width: 150px;
+    height: 30px;
+    background: white;
+  
+    
+  }
+  
+  .content p{
+    position: fixed;
+    transform: translateX(50%);
+    margin-top: 160%;
+    
+  }
+  .content .p1{
+      margin-top:30%;
+      right: 0%;
+      transform: translateX(90%);
+  }
+   .content .p2{
+    margin-top:20%;
+    right: 0%;
+    transform: translateX(90%);
+   }
+  .content img{
+    width:40px;
+    transform: translateY(140%);
+    margin: 10px;
+    border-radius: 70px;
+    margin-top: -0%;
+  }
+}
