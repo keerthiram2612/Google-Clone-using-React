@@ -9,6 +9,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOihT2qRZvS_4nzSV7s4m7Y_QB1Zm6qFLGdtJz9hVN&s");
+  background-size: cover;
 }
 
 code {
@@ -16,15 +18,32 @@ code {
     monospace;
 }
 h1{
+  margin-top: 5px ;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  filter: blur(1px) brightness(.7);
 }
 i{
   justify-content: center;
   align-items: center;
   text-align: center;
+  cursor: pointer;
+  color:  darkmagenta;
+  
 }
 button{
-  margin-left: 40px;
+ transform: translateX(410%);
+ width: 40px;
+ height: 30px;
+ align-items: center;
+ border: 2px solid;
 
+
+}
+.counter{
+  width: 400px;
+  height: 200px;
+  opacity: 1px;
+  
+  
 }
